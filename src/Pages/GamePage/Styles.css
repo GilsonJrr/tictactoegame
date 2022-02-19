@@ -1,0 +1,304 @@
+.Main{
+    background-color: #192A32;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Logo{
+    margin-right: 20px;
+}
+
+.Top{
+    display: flex;
+    margin-left: 10px;
+    width: 470px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.Turn{
+    width: 140px;
+    height: 57px;
+    background: #1F3540;
+    box-shadow: 0px 6px 2px #11232D;
+    border-radius: 10px;
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Turn p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A9BFCA;
+}
+
+.Restart{
+    width: 57px;
+    height: 57px;
+    background: #A9BFCA;
+    box-shadow: 0px 6px 2px #4E585C;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Bloc{
+    width: 140px;
+    height: 140px;
+    background: #1F3540;
+    box-shadow: 0px 8px 2px #11232D;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+}
+
+.BodyGame{
+    columns: 3 auto;
+    margin: 10px;
+}
+
+.Bottom{
+    display: flex;
+    width: 470px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.Player01{
+    width: 140px;
+    height: 76px;
+    background: #32C3BE;
+    box-shadow: 0px 6px 1px #124947;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Player01 p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #192A32;
+}
+
+.Player01 p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #192A32;
+}
+
+.Tie{
+    width: 140px;
+    height: 76px;
+    background: #A8BEC9;
+    box-shadow: 0px 6px 1px #4D575B;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Tie p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #192A32;
+}
+
+.Tie p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #192A32;
+}
+
+.Player02{
+    width: 140px;
+    height: 76px;
+    background: #F2B13A;
+    box-shadow: 0px 6px 1px #5B4416;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Player02 p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #192A32;
+}
+
+.Player02 p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #192A32;
+}
+
+.AlertDiv{
+    position: absolute;
+    width: 100%;
+    /* height: 259px; */
+    top: 40%;
+    background: #1F3540;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AlertDiv p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #A9BFCA;
+}
+
+.AlertDiv p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #A9BFCA;
+    margin-top: 71px;
+}
+
+.AlertDiv p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #36C1BC;
+}
+
+.Winner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButQuit{
+    width: 85px;
+    height: 55px;
+    background: #A8BEC9;
+    box-shadow: 0px 6px 1px #4D575B;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #11232D;
+}
+
+.ButNext{
+    width: 161px;
+    height: 55px;
+    background: #F2B13A;
+    box-shadow: 0px 6px 1px #5B4416;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #11232D;
+}
+
+.BackGround{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+}
+
+.ButCancel{
+    width: 161px;
+    height: 55px;
+    background: #A8BEC9;
+    box-shadow: 0px 6px 1px #4D575B;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 15px 78px 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #11232D;
+}
+
+.ButRest{
+    width: 161px;
+    height: 55px;
+    background: #F2B13A;
+    box-shadow: 0px 6px 1px #5B4416;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0px 78px 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #11232D;
+}
