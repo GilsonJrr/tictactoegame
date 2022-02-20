@@ -55,6 +55,10 @@
     cursor: pointer;
 }
 
+.Restart:hover{
+    background: #cfe6f1;
+}
+
 .Bloc{
     width: 140px;
     height: 140px;
@@ -189,6 +193,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .AlertDiv p{

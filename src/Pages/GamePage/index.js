@@ -218,7 +218,7 @@ function GamePage(props) {
           return (
             <div key={item.id}>
               <button className='Bloc' onClick={() => SetXorO(item.id)} disabled={item.activated}>
-                <img src={item.XO}/>
+                <img className='XO' src={item.XO}/>
               </button>
               
             </div>

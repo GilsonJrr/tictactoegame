@@ -68,7 +68,7 @@ function Selection () {
             <p>NEW GAME (VS CPU)</p>
         </div>
 
-        <div className='NewGamePLAYER'>
+        <div className='NewGamePLAYER' onClick={()=> props.setSeletor(false)}>
             <p>NEW GAME (VS PLAYER)</p>
         </div>
 
